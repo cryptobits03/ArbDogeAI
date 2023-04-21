@@ -1,0 +1,678 @@
+"use strict";
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+    [67],
+    {
+        19192: function (e, t, r) {
+            r.d(t, {
+                O: function () {
+                    return l;
+                },
+            });
+            var n = r(59499),
+                o = r(4730);
+            r(67294);
+            var i = r(23255),
+                c = r(85893),
+                a = ["tokenAddress"];
+            function s(e, t) {
+                var r = Object.keys(e);
+                if (Object.getOwnPropertySymbols) {
+                    var n = Object.getOwnPropertySymbols(e);
+                    t &&
+                        (n = n.filter(function (t) {
+                            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+                        })),
+                        r.push.apply(r, n);
+                }
+                return r;
+            }
+            var l = function (e) {
+                var t = e.tokenAddress,
+                    r = (0, o.Z)(e, a);
+                return (0, c.jsx)(
+                    i.Oi,
+                    (function (e) {
+                        for (var t = 1; t < arguments.length; t++) {
+                            var r = null != arguments[t] ? arguments[t] : {};
+                            t % 2
+                                ? s(Object(r), !0).forEach(function (t) {
+                                      (0, n.Z)(e, t, r[t]);
+                                  })
+                                : Object.getOwnPropertyDescriptors
+                                ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
+                                : s(Object(r)).forEach(function (t) {
+                                      Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
+                                  });
+                        }
+                        return e;
+                    })({ srcs: ["public/tokens/".concat(t, ".svg"), "public/tokens/".concat(t, ".png")] }, r)
+                );
+            };
+        },
+        96323: function (e, t, r) {
+            r.d(t, {
+                n: function () {
+                    return p;
+                },
+            });
+            var n = r(59499),
+                o = r(4730);
+            r(67294);
+            var i = r(23255),
+                c = r(14141),
+                a = r(85893),
+                s = ["children"];
+            function l(e, t) {
+                var r = Object.keys(e);
+                if (Object.getOwnPropertySymbols) {
+                    var n = Object.getOwnPropertySymbols(e);
+                    t &&
+                        (n = n.filter(function (t) {
+                            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+                        })),
+                        r.push.apply(r, n);
+                }
+                return r;
+            }
+            function d(e) {
+                for (var t = 1; t < arguments.length; t++) {
+                    var r = null != arguments[t] ? arguments[t] : {};
+                    t % 2
+                        ? l(Object(r), !0).forEach(function (t) {
+                              (0, n.Z)(e, t, r[t]);
+                          })
+                        : Object.getOwnPropertyDescriptors
+                        ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
+                        : l(Object(r)).forEach(function (t) {
+                              Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
+                          });
+                }
+                return e;
+            }
+            var u = (0, c.ZP)(i.xu).withConfig({ displayName: "Container__BoxStyled", componentId: "sc-10nw1h2-0" })([""]);
+            t.Z = function (e) {
+                var t = e.children,
+                    r = (0, o.Z)(e, s);
+                return (0, a.jsx)(u, d(d({ mx: "auto", maxWidth: "1200px" }, r), {}, { children: t }));
+            };
+            var p = (0, c.ZP)(i.xu).withConfig({ displayName: "Container__HeaderTop", componentId: "sc-10nw1h2-1" })([
+                'background:url("public/background.jpg") no-repeat;background-size:100%;background-position:top center;width:100%;padding-bottom:48.95%;position:absolute;top:0;z-index:-3;',
+            ]);
+        },
+        65067: function (e, t, r) {
+            r.d(t, {
+                Z: function () {
+                    return G;
+                },
+            });
+            var n = r(59499),
+                o = r(4730),
+                i = r(9008),
+                c = r.n(i),
+                a = r(80770),
+                s = r(67294),
+                l = r(16835),
+                d = r(25889),
+                u = r(51038),
+                p = r(23255),
+                h = r(91798),
+                f = r(73190),
+                b = r(47265),
+                m = r(92576),
+                g = r(84160),
+                x = r(79600),
+                j = r(94471),
+                y = r(19192),
+                O = r(85893),
+                v = function (e) {
+                    var t = e.onDisconnect,
+                        r = e.balanceUsd,
+                        n = e.balance,
+                        o = (0, m.Z)().signOut;
+                    return (0, O.jsx)(g.Z, {
+                        width: 300,
+                        height: 300,
+                        children: (0, O.jsxs)(p.kC, {
+                            alignItems: "center",
+                            flexDirection: "column",
+                            children: [
+                                (0, O.jsx)(p.xu, { width: 48, height: 48, mt: 40, children: (0, O.jsx)(y.O, { tokenAddress: b.ZP.gameT.symbol, width: 48, height: 48 }) }),
+                                (0, O.jsx)(p.Wo, {
+                                    mt: "8px",
+                                    fontSize: (0, j.U4)(n, b.ZP.gameT.decimals).isGreaterThan(1e9) ? "18px" : "24px",
+                                    unit: "  ".concat(b.ZP.gameT.symbol),
+                                    lineHeight: 1,
+                                    ellipsis: !0,
+                                    decimals: (0, j.U4)(n, b.ZP.gameT.decimals).isGreaterThan(1e9) ? 0 : void 0,
+                                    bold: !0,
+                                    value: (0, j.U4)(n, b.ZP.gameT.decimals).toNumber(),
+                                }),
+                                (0, O.jsx)(p.Wo, { mt: "8px", prefix: "$", lineHeight: 1, bold: !0, color: "textSubtle", value: (0, j.U4)(r, b.ZP.gameT.decimals).toNumber() }),
+                                (0, O.jsx)(p.rU, { external: !0, mt: 32, href: (0, x.L5)(), children: (0, O.jsxs)(p.zx, { scale: "sm", width: 268, children: ["Buy ", "".concat(b.ZP.gameT.symbol)] }) }),
+                                (0, O.jsx)(p.zx, {
+                                    onClick: function () {
+                                        o(), null == t || t();
+                                    },
+                                    variant: "secondary",
+                                    mt: 12,
+                                    scale: "sm",
+                                    width: 268,
+                                    children: "Disconnect",
+                                }),
+                            ],
+                        }),
+                    });
+                },
+                w = r(96323),
+                P = r(67541),
+                k = r(39696),
+                C = r(22920),
+                Z = r(14141),
+                S = r(11163),
+                D = r(36864);
+            function A(e, t) {
+                var r = Object.keys(e);
+                if (Object.getOwnPropertySymbols) {
+                    var n = Object.getOwnPropertySymbols(e);
+                    t &&
+                        (n = n.filter(function (t) {
+                            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+                        })),
+                        r.push.apply(r, n);
+                }
+                return r;
+            }
+            function E(e) {
+                for (var t = 1; t < arguments.length; t++) {
+                    var r = null != arguments[t] ? arguments[t] : {};
+                    t % 2
+                        ? A(Object(r), !0).forEach(function (t) {
+                              (0, n.Z)(e, t, r[t]);
+                          })
+                        : Object.getOwnPropertyDescriptors
+                        ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
+                        : A(Object(r)).forEach(function (t) {
+                              Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
+                          });
+                }
+                return e;
+            }
+            var I = function (e) {
+                    var t = (0, D.Z)({}, e);
+                    return (0, O.jsx)(p.rU, { href: "/", children: (0, O.jsx)(p.xu, E(E({ width: 174, height: 48 }, t), {}, { children: (0, O.jsx)(p.Ee, { src: "public/logo.svg", width: 174, height: 48 }) })) });
+                },
+                _ = {
+                    bmBurgerButton: { position: "fixed", width: "36px", height: "30px", right: "16px", top: "36px", zIndex: 120 },
+                    bmBurgerBars: { background: "#fff" },
+                    bmBurgerBarsHover: { background: "#a90000" },
+                    bmCrossButton: { height: "24px", width: "24px" },
+                    bmCross: { background: "#fff", visibility: "hidden" },
+                    bmMenuWrap: { position: "fixed", height: "100%" },
+                    bmMenu: { background: "#060818" },
+                    bmMorphShape: { fill: "#373a47" },
+                    bmItemList: { color: "#b8b7ad", padding: "0.8em" },
+                    bmItem: {},
+                    bmOverlay: { background: p._5.overlay },
+                },
+                N = (0, Z.ZP)(p.v4).withConfig({ displayName: "Header__ChevronDownIconStyled", componentId: "sc-1qhmy94-0" })(['transition:all 0.3s;transform:rotateZ("45deg");']),
+                W = (0, Z.ZP)(p.xu).withConfig({ displayName: "Header__BoxStyled", componentId: "sc-1qhmy94-1" })(["margin-right:58px;", "{margin-right:0px;}"], function (e) {
+                    return e.theme.mediaQueries.md;
+                }),
+                T = function () {
+                    var e = (0, a.$G)().t,
+                        t = (0, d.Z)().onConnectWallet,
+                        r = (0, u.Z)().account,
+                        n = (0, x.N0)(),
+                        o = s.useMemo(function () {
+                            return [
+                                { title: "Home", path: "/", id: "home" },
+                                { title: "LP", path: "/lp", id: "lp" },
+                                { title: "Earn", path: "/earn", id: "earn" },
+                                { title: "Lucky Drop", path: "/lucky", id: "lucky" },
+                                { title: "AICODE", path: "/aicode", id: "aicode", soon: !0 },
+                                { title: "DAO", path: "/dao", id: "govern", soon: !0 },
+                            ];
+                        }, []),
+                        i = s.useState(!1),
+                        c = (0, l.Z)(i, 2),
+                        m = c[0],
+                        g = c[1],
+                        j = s.useState(!1),
+                        y = (0, l.Z)(j, 2),
+                        Z = y[0];
+                    y[1];
+                    var D = (0, S.useRouter)().pathname,
+                        A = s.useCallback(function (e) {
+                            window.pageYOffset < 5 ? g(!1) : g(!0);
+                        }, []);
+                    s.useEffect(
+                        function () {
+                            return (
+                                window.addEventListener("scroll", A),
+                                function () {
+                                    window.removeEventListener("scroll", A);
+                                }
+                            );
+                        },
+                        [A]
+                    );
+                    var E = (0, P.ZP)(b.ZP.gameT.address),
+                        T = E.balance;
+                    E.fetchStatus;
+                    var z = (0, k.pQ)(b.ZP.gameT.address),
+                        B = s.useMemo(
+                            function () {
+                                return T.times(z);
+                            },
+                            [T, z]
+                        ),
+                        U = (0, p.lL)((0, O.jsx)(v, { balance: T, balanceUsd: B }), { placement: "top-end", tooltipOffset: [20, 10], trigger: n ? "click" : "hover", hideArrow: !0, themeInvert: !1, outerStyle: { padding: "0" } }),
+                        F = U.targetRef,
+                        H = U.tooltip,
+                        L = U.tooltipVisible;
+                    return (0, O.jsxs)(O.Fragment, {
+                        children: [
+                            (0, O.jsxs)(f.bubble, {
+                                left: !0,
+                                width: 280,
+                                isOpen: Z,
+                                styles: _,
+                                burgerButtonClassName: "hide-media-md",
+                                children: [
+                                    (0, O.jsx)(I, { style: { margin: "16px 32px" } }),
+                                    (0, O.jsx)(p.iz, { width: 280 }),
+                                    o.map(function (e) {
+                                        return (0, O.jsx)(
+                                            p.rU,
+                                            {
+                                                className: "show-media-md",
+                                                style: { padding: "16px 32px" },
+                                                href: e.path,
+                                                bold: !0,
+                                                color: D === e.path ? "primary" : "textSubtle",
+                                                onClick: function (t) {
+                                                    e.soon && (C.Am.info("Coming soon"), t.preventDefault());
+                                                },
+                                                children: e.title,
+                                            },
+                                            e.id
+                                        );
+                                    }),
+                                ],
+                            }),
+                            (0, O.jsxs)("header", {
+                                style: {
+                                    position: "sticky",
+                                    top: 0,
+                                    zIndex: 99,
+                                    height: 100,
+                                    transition: "all 0.3s",
+                                    overflow: "hidden",
+                                    backgroundColor: "/" === D ? "transparent" : "#060818",
+                                    boxShadow: m ? "rgb(152 86 255 / 32%) 0px 1px 2px -2px, rgb(85 160 255 / 24%) 0px 3px 6px 0px, rgb(153 83 255 / 18%) 0px 5px 12px 4px" : "none",
+                                },
+                                children: [
+                                    "/" === D && (0, O.jsx)(w.n, {}),
+                                    H,
+                                    (0, O.jsx)(p.xu, {
+                                        height: 100,
+                                        children: (0, O.jsx)(w.Z, {
+                                            height: "100%",
+                                            margin: "auto",
+                                            children: (0, O.jsxs)(p.kC, {
+                                                height: "100%",
+                                                margin: "auto",
+                                                alignItems: "center",
+                                                justifyContent: "space-between",
+                                                children: [
+                                                    (0, O.jsx)(I, {}),
+                                                    (0, O.jsx)(p.kC, {
+                                                        alignItems: "center",
+                                                        justifyContent: "space-between",
+                                                        children: o.map(function (e) {
+                                                            return (0, O.jsx)(
+                                                                p.rU,
+                                                                {
+                                                                    className: "show-media-md",
+                                                                    bold: !0,
+                                                                    style: { margin: "0 32px" },
+                                                                    color: D === e.path ? "primary" : "textSubtle",
+                                                                    href: e.path,
+                                                                    onClick: function (t) {
+                                                                        e.soon && (C.Am.info("Coming soon"), t.preventDefault());
+                                                                    },
+                                                                    children: e.title,
+                                                                },
+                                                                e.id
+                                                            );
+                                                        }),
+                                                    }),
+                                                    (0, O.jsx)(W, {
+                                                        children: r
+                                                            ? (0, O.jsx)(p.xu, {
+                                                                  ref: F,
+                                                                  children: (0, O.jsx)(p.zx, {
+                                                                      variant: "info",
+                                                                      width: 142,
+                                                                      scale: "sm",
+                                                                      endIcon: (0, O.jsx)(N, { style: { transform: L ? "rotateZ(180deg)" : "rotateZ(0deg)" }, color: "primary", width: 22 }),
+                                                                      children: (0, h.Xn)(r),
+                                                                  }),
+                                                              })
+                                                            : (0, O.jsx)(p.zx, {
+                                                                  scale: "sm",
+                                                                  onClick: login,
+                                                                  width: 148,
+                                                                  height: 40,
+                                                                  padding: 0,
+                                                                  style: { fontSize: "14px" },
+                                                                  children: e("Connect Wallet"),
+                                                              }),
+                                                    }),
+                                                ],
+                                            }),
+                                        }),
+                                    }),
+                                ],
+                            }),
+                        ],
+                    });
+                },
+                z = r(75593);
+            Z.ZP.footer.withConfig({ displayName: "Footer__FotterStyled", componentId: "sc-1jehlmy-0" })(["height:196px;position:relative;overflow:hidden;"]),
+                Z.ZP.div.withConfig({ displayName: "Footer__BannerBg", componentId: "sc-1jehlmy-1" })([
+                    "border-top-left-radius:100%;border-top-right-radius:100%;background:#0b1255;background-position:center center;position:absolute;top:5%;left:-25%;margin:auto;height:200%;width:150%;z-index:0;",
+                ]);
+            var B = (0, Z.ZP)(p.kC).withConfig({ displayName: "Footer__FlexLinks", componentId: "sc-1jehlmy-2" })(["justify-content:flex-start;", "{justify-content:flex-end;}"], function (e) {
+                return e.theme.mediaQueries.md;
+            });
+            (0, Z.ZP)(p.xu).withConfig({ displayName: "Footer__BoxLinks", componentId: "sc-1jehlmy-3" })(["justify-content:flex-start;", "{justify-content:flex-end;}"], function (e) {
+                return e.theme.mediaQueries.md;
+            });
+            var U = function () {
+                    return (0, O.jsxs)(p.xu, {
+                        padding: "0 16px",
+                        pt: 28,
+                        maxWidth: 960,
+                        margin: "auto",
+                        children: [
+                            (0, O.jsxs)(p.kC, {
+                                flexWrap: "wrap",
+                                justifyContent: "space-between",
+                                children: [
+                                    (0, O.jsxs)(p.xu, {
+                                        pt: 36,
+                                        minWidth: "300px",
+                                        width: "50%",
+                                        children: [(0, O.jsx)(I, {}), (0, O.jsx)(p.xv, { color: "textSubtle", fontSize: "14px", mt: 20, children: "ArbDogeAI, an Experiment in the Arbitrum Ecosystem." })],
+                                    }),
+                                    (0, O.jsx)(B, {
+                                        pt: 36,
+                                        flex: 1,
+                                        minWidth: 350,
+                                        justifyContent: "flex-end",
+                                        children: z.AW.map(function (e, t) {
+                                            return (0, O.jsxs)(
+                                                p.xu,
+                                                {
+                                                    mr: t === (null === z.AW || void 0 === z.AW ? void 0 : z.AW.length) - 1 ? 0 : "16%",
+                                                    children: [
+                                                        (0, O.jsx)(p.xv, { children: e.label }),
+                                                        e.links.map(function (e, t) {
+                                                            return (0, O.jsx)(
+                                                                p.rU,
+                                                                {
+                                                                    onClick: function (t) {
+                                                                        e.soon && (t.preventDefault(), C.Am.info("Coming soon"));
+                                                                    },
+                                                                    href: e.href,
+                                                                    small: !0,
+                                                                    external: e.external,
+                                                                    color: "textSubtle",
+                                                                    mt: 0 === t ? 24 : 18,
+                                                                    ellipsis: !0,
+                                                                    children: e.label,
+                                                                },
+                                                                e.label
+                                                            );
+                                                        }),
+                                                    ],
+                                                },
+                                                e.label
+                                            );
+                                        }),
+                                    }),
+                                ],
+                            }),
+                            (0, O.jsx)(p.iz, { margin: 0, mt: 64 }),
+                            (0, O.jsx)(p.xv, { margin: "30px 0", fontSize: "12px", color: "textSubtle", textAlign: "center", children: "\xa9 2023 Arbitrum Doge Paradise. All right reserved." }),
+                        ],
+                    });
+                },
+                F = ["children"];
+            function H(e, t) {
+                var r = Object.keys(e);
+                if (Object.getOwnPropertySymbols) {
+                    var n = Object.getOwnPropertySymbols(e);
+                    t &&
+                        (n = n.filter(function (t) {
+                            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+                        })),
+                        r.push.apply(r, n);
+                }
+                return r;
+            }
+            function L(e) {
+                for (var t = 1; t < arguments.length; t++) {
+                    var r = null != arguments[t] ? arguments[t] : {};
+                    t % 2
+                        ? H(Object(r), !0).forEach(function (t) {
+                              (0, n.Z)(e, t, r[t]);
+                          })
+                        : Object.getOwnPropertyDescriptors
+                        ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
+                        : H(Object(r)).forEach(function (t) {
+                              Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
+                          });
+                }
+                return e;
+            }
+            var M = Z.ZP.main.withConfig({ displayName: "Page__Main", componentId: "sc-fdgzqz-0" })(["min-height:80vh;"]),
+                G = function (e) {
+                    var t = e.children,
+                        r = (0, o.Z)(e, F),
+                        n = (0, a.$G)().t;
+                    return (0, O.jsxs)(
+                        "div",
+                        L(
+                            L({ style: { minHeight: "100vh" } }, r),
+                            {},
+                            {
+                                children: [
+                                    (0, O.jsxs)(c(), {
+                                        children: [
+                                            (0, O.jsx)("title", { children: n("ArbDoge") }),
+                                            (0, O.jsx)("meta", { name: "description", content: "ArbDoge AI is not a project but an experiment in the Arbitrum ecosystem." }),
+                                            (0, O.jsx)("meta", { name: "viewport", content: "width=device-width, initial-scale=1" }),
+                                            (0, O.jsx)("link", { rel: "icon", href: "public/favicons.ico" }),
+                                        ],
+                                    }),
+                                    (0, O.jsx)(T, {}),
+                                    (0, O.jsx)(M, { children: t }),
+                                    (0, O.jsx)(U, {}),
+                                ],
+                            }
+                        )
+                    );
+                };
+        },
+        75593: function (e, t, r) {
+            r.d(t, {
+                AW: function () {
+                    return l;
+                },
+                PK: function () {
+                    return a;
+                },
+                UY: function () {
+                    return o;
+                },
+                hY: function () {
+                    return c;
+                },
+                jj: function () {
+                    return s;
+                },
+                vA: function () {
+                    return i;
+                },
+            });
+            var n = r(23255),
+                o = [
+                    { label: "Twitter", icon: n.Zm, href: "https://twitter.com/arbdogeai" },
+                    { label: "Discord", icon: n.D7, href: "https://discord.gg/arbdogeai" },
+                    { label: "Medium", icon: n.OW, href: "https://medium.com/@ArbDogeAI" },
+                ],
+                i = "https://docs.arbdoge.ai/products/lucky-drop",
+                c = "https://docs.arbdoge.ai/products/aicode",
+                a = "https://docs.arbdoge.ai/tokenomics/aidoge",
+                s = "https://docs.arbdoge.ai/tokenomics/aicode",
+                l = [
+                    {
+                        label: "Resources",
+                        links: [
+                            { label: "Whitepaper", href: "https://docs.arbdoge.ai/", external: !0 },
+                            { label: "FAQs", href: "https://docs.arbdoge.ai/others/faq", external: !0 },
+                        ],
+                    },
+                    {
+                        label: "Products",
+                        links: [
+                            { label: "Lucky Drop", href: "/lucky" },
+                            { label: "Earn", href: "/earn" },
+                            { label: "AICode", href: "/", soon: !0 },
+                        ],
+                    },
+                    {
+                        label: "Press",
+                        links: [
+                            { label: "Terms of Use", href: "https://docs.arbdoge.ai/others/terms-of-use", external: !0 },
+                            { label: "Privacy Policy", href: "https://docs.arbdoge.ai/others/privacy-policy", external: !0 },
+                            { label: "Brand", href: "https://docs.arbdoge.ai/others/brand", external: !0 },
+                        ],
+                    },
+                ];
+        },
+        67257: function (e, t, r) {
+            var n, o;
+            r.d(t, {
+                i: function () {
+                    return n;
+                },
+            }),
+                ((o = n || (n = {})).NOT_FETCHED = "not-fetched"),
+                (o.SUCCESS = "success"),
+                (o.FAILED = "failed");
+        },
+        67541: function (e, t, r) {
+            r.d(t, {
+                ZP: function () {
+                    return m;
+                },
+            });
+            var n = r(59499),
+                o = r(50029),
+                i = r(87794),
+                c = r.n(i),
+                a = r(67294),
+                s = r(70794),
+                l = r(34713),
+                d = r(84465),
+                u = r(222);
+            r(52292);
+            var p = r(72556),
+                h = r(67257);
+            function f(e, t) {
+                var r = Object.keys(e);
+                if (Object.getOwnPropertySymbols) {
+                    var n = Object.getOwnPropertySymbols(e);
+                    t &&
+                        (n = n.filter(function (t) {
+                            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+                        })),
+                        r.push.apply(r, n);
+                }
+                return r;
+            }
+            function b(e) {
+                for (var t = 1; t < arguments.length; t++) {
+                    var r = null != arguments[t] ? arguments[t] : {};
+                    t % 2
+                        ? f(Object(r), !0).forEach(function (t) {
+                              (0, n.Z)(e, t, r[t]);
+                          })
+                        : Object.getOwnPropertyDescriptors
+                        ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
+                        : f(Object(r)).forEach(function (t) {
+                              Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
+                          });
+                }
+                return e;
+            }
+            var m = function (e, t) {
+                var r = h.i.NOT_FETCHED,
+                    n = h.i.SUCCESS,
+                    i = h.i.FAILED,
+                    f = (0, a.useState)({ balance: u.HW, fetchStatus: r }),
+                    m = f[0],
+                    g = f[1],
+                    x = (0, l.Ge)().account,
+                    j = (0, p.Z)().fastRefresh;
+                return (
+                    (0, a.useEffect)(
+                        function () {
+                            var a,
+                                l =
+                                    ((a = (0, o.Z)(
+                                        c().mark(function r() {
+                                            var o, a;
+                                            return c().wrap(
+                                                function (r) {
+                                                    for (;;)
+                                                        switch ((r.prev = r.next)) {
+                                                            case 0:
+                                                                return (o = (0, d.jS)(e)), (r.prev = 1), (r.next = 4), o.balanceOf(t || x);
+                                                            case 4:
+                                                                (a = r.sent), g({ balance: new s.Z(a.toString()), fetchStatus: n }), (r.next = 12);
+                                                                break;
+                                                            case 8:
+                                                                (r.prev = 8),
+                                                                    (r.t0 = r.catch(1)),
+                                                                    console.error(r.t0),
+                                                                    g(function (e) {
+                                                                        return b(b({}, e), {}, { fetchStatus: i });
+                                                                    });
+                                                            case 12:
+                                                            case "end":
+                                                                return r.stop();
+                                                        }
+                                                },
+                                                r,
+                                                null,
+                                                [[1, 8]]
+                                            );
+                                        })
+                                    )),
+                                    function () {
+                                        return a.apply(this, arguments);
+                                    });
+                            (x || t) && e ? l() : g({ balance: u.HW, fetchStatus: r });
+                        },
+                        [x, e, j, t, n, i]
+                    ),
+                    m
+                );
+            };
+        },
+    },
+]);

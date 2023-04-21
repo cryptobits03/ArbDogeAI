@@ -1,0 +1,1056 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+    [405],
+    {
+        97178: function (e, t, n) {
+            "use strict";
+            n.d(t, {
+                $u: function () {
+                    return b;
+                },
+                Fg: function () {
+                    return f;
+                },
+                IE: function () {
+                    return g;
+                },
+                Ib: function () {
+                    return c;
+                },
+                Id: function () {
+                    return h;
+                },
+                SW: function () {
+                    return p;
+                },
+                Th: function () {
+                    return u;
+                },
+                X_: function () {
+                    return s;
+                },
+                d6: function () {
+                    return x;
+                },
+                ov: function () {
+                    return y;
+                },
+                vU: function () {
+                    return m;
+                },
+                wd: function () {
+                    return d;
+                },
+            });
+            var r = n(67294),
+                i = n(51038),
+                o = n(84465),
+                a = n(91798);
+            n(27849);
+            var l = n(84556);
+            n(33373);
+            var s = function (e) {
+                var t = (0, i.Z)().library;
+                return (0, r.useMemo)(
+                    function () {
+                        return (0, o.jS)(e, null == t ? void 0 : t.getSigner());
+                    },
+                    [e, t]
+                );
+            };
+            function c(e, t) {
+                return (function (e, t) {
+                    var n = !(arguments.length > 2) || void 0 === arguments[2] || arguments[2],
+                        o = (0, i.Z)(),
+                        l = o.library,
+                        s = o.account;
+                    return (0, r.useMemo)(
+                        function () {
+                            if (!e || !t || !l) return null;
+                            try {
+                                return (0, a.uN)(e, t, l);
+                            } catch (e) {
+                                return console.error("Failed to get contract", e), null;
+                            }
+                        },
+                        [e, t, l, n, s]
+                    );
+                })(e, l, t);
+            }
+            function u() {
+                var e = (0, i.Z)().library;
+                return (0, o.Vb)(null == e ? void 0 : e.getSigner());
+            }
+            function d(e) {
+                var t = (0, i.Z)().library;
+                return (0, o.LC)(e, null == t ? void 0 : t.getSigner());
+            }
+            function m(e) {
+                var t = (0, i.Z)().library;
+                return (0, o.qj)(e, null == t ? void 0 : t.getSigner());
+            }
+            var h = function () {
+                    var e = (0, i.Z)().library;
+                    return (0, o.Nt)(null == e ? void 0 : e.getSigner());
+                },
+                x = function () {
+                    var e = (0, i.Z)().library;
+                    return (0, o.Eg)(null == e ? void 0 : e.getSigner());
+                },
+                g = function () {
+                    var e = (0, i.Z)().library;
+                    return (0, o.DS)(null == e ? void 0 : e.getSigner());
+                },
+                f = function () {
+                    var e = (0, i.Z)().library;
+                    return (0, o.wK)(null == e ? void 0 : e.getSigner());
+                },
+                p = function () {
+                    var e = (0, i.Z)().library;
+                    return (0, o.Y)(null == e ? void 0 : e.getSigner());
+                },
+                b = function () {
+                    var e = (0, i.Z)().library;
+                    return (0, o.TM)(null == e ? void 0 : e.getSigner());
+                },
+                y = function () {
+                    var e = (0, i.Z)().library;
+                    return (0, o.uF)(null == e ? void 0 : e.getSigner());
+                };
+        },
+        82156: function (e, t, n) {
+            "use strict";
+            var r = n(50029),
+                i = n(87794),
+                o = n.n(i),
+                a = n(67294);
+            t.Z = function (e) {
+                var t = (0, a.useRef)(null),
+                    n = (0, a.useState)(0),
+                    i = n[0],
+                    l = n[1];
+                return (
+                    (0, a.useEffect)(
+                        function () {
+                            var n;
+                            return (
+                                ((n = (0, r.Z)(
+                                    o().mark(function n() {
+                                        var r;
+                                        return o().wrap(function (n) {
+                                            for (;;)
+                                                switch ((n.prev = n.next)) {
+                                                    case 0:
+                                                        l(e - (r = Math.floor(new Date().getTime() / 1e3))),
+                                                            e > r &&
+                                                                (t.current && clearInterval(t.current),
+                                                                (t.current = setInterval(function () {
+                                                                    l(e - Math.floor(new Date().getTime() / 1e3));
+                                                                }, 1e3)));
+                                                    case 3:
+                                                    case "end":
+                                                        return n.stop();
+                                                }
+                                        }, n);
+                                    })
+                                )),
+                                function () {
+                                    return n.apply(this, arguments);
+                                })(),
+                                function () {
+                                    t.current && clearInterval(t.current);
+                                }
+                            );
+                        },
+                        [l, e, t]
+                    ),
+                    i
+                );
+            };
+        },
+        38209: function (e, t, n) {
+            "use strict";
+            n.r(t),
+                n.d(t, {
+                    default: function () {
+                        return ey;
+                    },
+                });
+            var r,
+                i,
+                o = n(80770),
+                a = n(65067),
+                l = n(23255),
+                s = n(82379),
+                c = n(14141),
+                u = n(96323),
+                d = n(85893),
+                m = function () {
+                    var e = (0, o.$G)().t;
+                    return (0, d.jsxs)(u.Z, {
+                        margin: "auto",
+                        pt: 120,
+                        children: [
+                            (0, d.jsx)(l.xv, { bold: !0, active: !0, fontSize: "18px", textAlign: "center", children: e("Proudly Launch on Arbitrum") }),
+                            (0, d.jsx)(l.X6, { scale: "xxl", mt: 24, textAlign: "center", children: e("Co-built by AI creatures and our community") }),
+                        ],
+                    });
+                },
+                h = n(50029),
+                x = n(16835),
+                g = n(87794),
+                f = n.n(g),
+                p = n(47265),
+                b = n(51038),
+                y = n(66393),
+                v = n(83911),
+                j = n(35592),
+                w = n(84160),
+                Z = n(94471),
+                k = n(70794),
+                A = n(67294),
+                C = n(71721),
+                I = n(25889),
+                P = n(97178),
+                T = n(9279),
+                O = n(22920),
+                S = n(79600),
+                D = n(82156),
+                E = n(99855),
+                G = { gasLimit: n(68262).QL },
+                _ = function () {
+                    var e,
+                        t = (0, b.Z)().account,
+                        n = (0, I.Z)().onConnectWallet,
+                        r = (0, P.Th)();
+                    return {
+                        claimHandle: A.useCallback(
+                            ((e = (0, h.Z)(
+                                f().mark(function e(i) {
+                                    var o, a, l, s, c, u;
+                                    return f().wrap(
+                                        function (e) {
+                                            for (;;)
+                                                switch ((e.prev = e.next)) {
+                                                    case 0:
+                                                        if (t) {
+                                                            e.next = 3;
+                                                            break;
+                                                        }
+                                                        return n(), e.abrupt("return");
+                                                    case 3:
+                                                        return (e.prev = 3), (e.next = 6), C.V.Airdrop.claimEligibility(t);
+                                                    case 6:
+                                                        if (((o = e.sent), C.V.isSuccess(o))) {
+                                                            e.next = 9;
+                                                            break;
+                                                        }
+                                                        return e.abrupt("return");
+                                                    case 9:
+                                                        return (a = (0, S.UJ)(i) || T.d), (e.next = 12), r.claim("".concat(o.data.nonce), o.data.signature, a);
+                                                    case 12:
+                                                        return (l = e.sent), (e.next = 15), l.wait(G);
+                                                    case 15:
+                                                        return (s = e.sent), e.abrupt("return", s.status);
+                                                    case 19:
+                                                        (e.prev = 19), (e.t0 = e.catch(3)), (u = e.t0.reason || (null === (c = e.t0.data) || void 0 === c ? void 0 : c.message) || e.t0.message), console.error(e.t0), O.Am.error(u);
+                                                    case 24:
+                                                    case "end":
+                                                        return e.stop();
+                                                }
+                                        },
+                                        e,
+                                        null,
+                                        [[3, 19]]
+                                    );
+                                })
+                            )),
+                            function (t) {
+                                return e.apply(this, arguments);
+                            }),
+                            [t, r, n]
+                        ),
+                    };
+                },
+                W = function () {
+                    var e = (0, y.oR)(function (e) {
+                            return e.airdrop;
+                        }).eligibility,
+                        t = (0, D.Z)(e.claimStartAt / 1e3),
+                        n = A.useMemo(
+                            function () {
+                                var n = (0, E.ZP)(t, !0),
+                                    r = n.days,
+                                    i = n.hours,
+                                    o = n.minutes,
+                                    a = n.seconds;
+                                return { show: t > 0, ended: e.claimEndAt < Date.now(), endTime: t, hours: i + 24 * r, minutes: o, seconds: a };
+                            },
+                            [e.claimEndAt, t]
+                        ),
+                        r = n.endTime,
+                        i = n.hours,
+                        o = n.minutes,
+                        a = n.seconds;
+                    return { endTime: r, show: n.show, ended: n.ended, countdown: [Math.floor(i / 10), i % 10, -1, Math.floor(o / 10), o % 10, -2, Math.floor(a / 10), a % 10] };
+                },
+                z = n(27484),
+                N = n.n(z);
+            (0, c.F4)(["0%{opacity:1;}50%{opacity:0.2;}100%{opacity:1;}"]);
+            var R = (0, c.ZP)(l.pq).withConfig({ displayName: "Airdrop__TimeSpace", componentId: "sc-7atfk3-0" })([""]),
+                B = (0, c.ZP)(l.II).withConfig({ displayName: "Airdrop__InputStyled", componentId: "sc-7atfk3-1" })(["width:560px;max-width:90vw;"]),
+                M = function () {
+                    var e = (0, o.$G)().t,
+                        t = (0, j.l)().showModal,
+                        n = (0, v.O)().fetch,
+                        r = (0, y.oR)(function (e) {
+                            return e.airdrop;
+                        }),
+                        i = r.eligibility,
+                        a = r.infoView,
+                        s = (0, y.oR)(function (e) {
+                            return e.user;
+                        }).invitation,
+                        c = W(),
+                        u = c.countdown,
+                        m = c.show,
+                        g = c.ended,
+                        C = _().claimHandle,
+                        I = A.useState(!1),
+                        P = (0, x.Z)(I, 2),
+                        T = P[0],
+                        O = P[1],
+                        S = (0, b.Z)().account,
+                        D = A.useMemo(
+                            function () {
+                                return S && i.isEligible && !i.hasClaimed ? (0, Z.U4)(new k.Z(a.currentClaim), p.ZP.gameT.decimals).toString() : "0";
+                            },
+                            [a.currentClaim, S, i.isEligible]
+                        );
+                    return (0, d.jsxs)(w.Z, {
+                        type: "secondary",
+                        margin: "auto",
+                        padding: "8px",
+                        pt: 64,
+                        pb: 60,
+                        width: 720,
+                        maxWidth: "98%",
+                        children: [
+                            (0, d.jsxs)(l.kC, {
+                                flexDirection: "column",
+                                alignItems: "center",
+                                children: [
+                                    g
+                                        ? (0, d.jsx)(l.X6, { textAlign: "center", scale: "xl", gradient: "borderSecondary", children: e("Airdrop is ended!") })
+                                        : m
+                                        ? (0, d.jsx)(l.X6, { textAlign: "center", scale: "xl", gradient: "borderSecondary", children: e("Airdrop is coming soon!") })
+                                        : (0, d.jsx)(l.X6, { textAlign: "center", scale: "xl", gradient: "borderSecondary", children: e("You can claim AIDOGE now!") }),
+                                    (0, d.jsx)(l.xv, {
+                                        maxWidth: "100%",
+                                        width: 560,
+                                        mt: 24,
+                                        textAlign: "center",
+                                        color: "textSubtle",
+                                        children: e("A total of 210,000,000,000,000,000 AIDOGE tokens are now available to be claimed by those who have claimed the ARB airdrop."),
+                                    }),
+                                    (0, d.jsx)(l.xv, {
+                                        maxWidth: "100%",
+                                        width: 560,
+                                        mt: 12,
+                                        textAlign: "center",
+                                        color: "textSubtle",
+                                        children: e(
+                                            "AIDOGE tokens that have not been claimed within 31 days will be used for the Community Long-Term Incentive Reward Program. The AIDOGE will be distributed to the top contributors of Arbitrum community and burned."
+                                        ),
+                                    }),
+                                    m
+                                        ? (0, d.jsxs)(d.Fragment, {
+                                              children: [
+                                                  (0, d.jsx)(l.X6, { marginTop: "30px", scale: "lx", textAlign: "center", active: !0, children: e("Earlier claim, More AIDOGE") }),
+                                                  (0, d.jsx)(l.xu, { children: (0, d.jsx)(l.zb, { marginLeft: "50%", width: 227, style: { maxWidth: "40vw" } }) }),
+                                              ],
+                                          })
+                                        : (0, d.jsxs)(d.Fragment, {
+                                              children: [
+                                                  (0, d.jsx)(w.Z, {
+                                                      mt: 28,
+                                                      borderWidth: 1,
+                                                      type: "orange",
+                                                      padding: "0 16px",
+                                                      children: (0, d.jsxs)(l.kC, {
+                                                          children: [
+                                                              (0, d.jsx)(l.T3, { width: 14 }),
+                                                              (0, d.jsxs)(l.xv, {
+                                                                  bold: !0,
+                                                                  gradient: "borderOrange",
+                                                                  ml: "6px",
+                                                                  children: [N()(i.claimStartAt).format("YYYY.MM.DD hh:mm"), "-", N()(i.claimEndAt).format("YYYY.MM.DD hh:mm")],
+                                                              }),
+                                                          ],
+                                                      }),
+                                                  }),
+                                                  (0, d.jsxs)(l.kC, {
+                                                      maxWidth: "90vw",
+                                                      width: 560,
+                                                      mt: 44,
+                                                      justifyContent: "space-between",
+                                                      children: [
+                                                          (0, d.jsx)(l.xv, { small: !0, color: "textSubtle", children: "Received" }),
+                                                          (0, d.jsx)(l.Wo, { small: !0, color: "textSubtle", decimals: 0, value: (0, Z.U4)(new k.Z(null == a ? void 0 : a.maxToken), p.ZP.gameT.decimals).toNumber() }),
+                                                      ],
+                                                  }),
+                                                  (0, d.jsx)(l.xu, {
+                                                      mt: 12,
+                                                      maxWidth: "90vw",
+                                                      width: 560,
+                                                      children: (0, d.jsx)(l.Ex, {
+                                                          scale: "sm",
+                                                          primaryStep:
+                                                              new k.Z(null == a ? void 0 : a.claimedSupply)
+                                                                  .div(null == a ? void 0 : a.maxToken)
+                                                                  .times(100)
+                                                                  .toNumber() || 0,
+                                                      }),
+                                                  }),
+                                              ],
+                                          }),
+                                    (0, d.jsx)(l.xu, {
+                                        children: m
+                                            ? (0, d.jsx)(l.kC, {
+                                                  mt: 22,
+                                                  alignItems: "center",
+                                                  justifyContent: "center",
+                                                  children: u.map(function (e, t) {
+                                                      return e < 0
+                                                          ? (0, d.jsx)(R, { width: 4, margin: "0 10px" }, t)
+                                                          : (0, d.jsx)(l.II, { readOnly: !0, fontSize: "40px", fontWeight: 900, height: 64, padding: 0, textAlign: "center", margin: "0 4px", value: e, width: 56 }, t);
+                                                  }),
+                                              })
+                                            : (0, d.jsx)(B, { value: D, readOnly: !0, mt: 22 }),
+                                    }),
+                                    g
+                                        ? (0, d.jsx)(l.kC, { position: "relative", mt: 42, width: 560, maxWidth: "50vw", justifyContent: "center", children: (0, d.jsx)(l.zx, { disabled: !0, width: 260, children: e("Ended") }) })
+                                        : m
+                                        ? (0, d.jsxs)(d.Fragment, {
+                                              children: [
+                                                  (0, d.jsxs)(l.xv, { textAlign: "center", active: !0, bold: !0, mt: 24, children: ["You can claim:", (0, Z.UJ)(Number(D))] }),
+                                                  (0, d.jsx)(l.kC, {
+                                                      position: "relative",
+                                                      mt: 24,
+                                                      width: 560,
+                                                      maxWidth: "50vw",
+                                                      justifyContent: "center",
+                                                      children: (0, d.jsx)(l.zx, { disabled: !0, width: 260, children: e("Coming soon") }),
+                                                  }),
+                                              ],
+                                          })
+                                        : (0, d.jsxs)(l.kC, {
+                                              mt: 22,
+                                              width: 560,
+                                              maxWidth: "100%",
+                                              flexWrap: "wrap",
+                                              justifyContent: "center",
+                                              children: [
+                                                  a.claimed
+                                                      ? (0, d.jsx)(l.zx, { mt: 20, width: 260, children: e("Claimed") })
+                                                      : (0, d.jsx)(l.zx, {
+                                                            mt: 20,
+                                                            iconLoading: T,
+                                                            onClick: login,
+                                                            width: 260,
+                                                            children: e("Claim Airdrop"),
+                                                        }),
+                                                  (0, d.jsx)(l.xu, { width: 40, height: 0, className: "show-media-ml" }),
+                                                  (0, d.jsxs)(l.xu, {
+                                                      width: 260,
+                                                      maxWidth: "100%",
+                                                      mt: 20,
+                                                      position: "relative",
+                                                      children: [
+                                                          (0, d.jsx)(l.zx, { onClick: login, maxWidth: "100%", width: 260, children: e("Invite Friends") }),
+                                                          (0, d.jsx)(l.xu, {
+                                                              style: { transform: "rotateZ(-4deg)" },
+                                                              right: 21,
+                                                              top: "-40%",
+                                                              position: "absolute",
+                                                              children: (0, d.jsx)(l.Vp, { variant: "secondary", children: e("Get 10% bonus") }),
+                                                          }),
+                                                      ],
+                                                  }),
+                                              ],
+                                          }),
+                                ],
+                            }),
+                            (0, d.jsx)(l.xu, {}),
+                        ],
+                    });
+                },
+                L = n(59499),
+                Y = n(75593),
+                F = n(73604),
+                $ = n(46208),
+                U = n(43815),
+                X = n(14888),
+                V = ((r = {}), (0, L.Z)(r, p.ZP.gameT.symbol, 15), (0, L.Z)(r, p.ZP.gameGovT.symbol, 12), r),
+                H = (0, c.ZP)(l.kC).withConfig({ displayName: "TokenChart__BoxText", componentId: "sc-1i7jw0w-0" })(["position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);"]),
+                K = Math.PI / 180,
+                q = function (e) {
+                    var t = e.cx,
+                        n = e.cy,
+                        r = e.midAngle,
+                        i = e.outerRadius,
+                        o = e.value,
+                        a = (e.percent, e.name),
+                        l = e.fill,
+                        s = Math.sin(-K * r),
+                        c = Math.cos(-K * r),
+                        u = t + (i + 30) * c,
+                        m = n + (i + 30) * s,
+                        h = u + (c >= 0 ? 1 : -1) * 60,
+                        x = c >= 0 ? "start" : "end";
+                    return (0, d.jsxs)("g", {
+                        children: [
+                            (0, d.jsx)("path", {
+                                d: "M"
+                                    .concat(t + (i - 5) * c + 5 * c, ",")
+                                    .concat(n + (i - 5) * s + 5 * s, "L")
+                                    .concat(u, ",")
+                                    .concat(m, "L")
+                                    .concat(h, ",")
+                                    .concat(m),
+                                stroke: "#323D5A",
+                                strokeWidth: "2",
+                                fill: "none",
+                            }),
+                            (0, d.jsx)("circle", { cx: h, cy: m, r: 4, strokeWidth: "3", stroke: l, fill: "transparent" }),
+                            (0, d.jsx)("text", { x: h + (c >= 0 ? 1 : -1) * 12, y: m - 10, textAnchor: x, fill: "#fff", fontWeight: 900, children: "".concat(o.toFixed(0), "%") }),
+                            (0, d.jsx)("text", { x: h + (c >= 0 ? 1 : -1) * 12, y: m, dy: 18, textAnchor: x, fill: "#999", children: "".concat(a) }),
+                        ],
+                    });
+                };
+            function J(e) {
+                var t = e.symbol,
+                    n = void 0 === t ? p.ZP.gameT.symbol : t,
+                    r = (0, o.$G)().t,
+                    i = A.useMemo(
+                        function () {
+                            var e;
+                            return (
+                                (e = {}),
+                                (0, L.Z)(e, p.ZP.gameT.symbol, [
+                                    { name: r("Development"), value: (3 * V[p.ZP.gameT.symbol]) / V[p.ZP.gameT.symbol], color: "rgba(17,119,232,1)" },
+                                    { name: r("Buy ARB"), value: (3 * V[p.ZP.gameT.symbol]) / V[p.ZP.gameT.symbol], color: "rgba(211,240,50,1)" },
+                                    { name: r("Lucky Drop Rewards"), value: (3 * V[p.ZP.gameT.symbol]) / V[p.ZP.gameT.symbol], color: "rgba(246,119,18,1)" },
+                                    { name: r("Dividends to AIDOGE Holders"), value: (3 * V[p.ZP.gameT.symbol]) / V[p.ZP.gameT.symbol], color: "rgba(140,48,250,1)" },
+                                    { name: r("Rewards to AIDOGE/ETH LP"), value: (2 * V[p.ZP.gameT.symbol]) / V[p.ZP.gameT.symbol], color: "rgba(118,252,211,1)" },
+                                    { name: r("Burn"), value: (1 * V[p.ZP.gameT.symbol]) / V[p.ZP.gameT.symbol], color: "rgba(255,196,57,1)" },
+                                ]),
+                                (0, L.Z)(e, p.ZP.gameGovT.symbol, [
+                                    { name: r("Development/Marketing"), value: (3 * V[p.ZP.gameGovT.symbol]) / V[p.ZP.gameGovT.symbol], color: "rgba(17,119,232,1)" },
+                                    { name: r("Buy ARB"), value: (3 * V[p.ZP.gameGovT.symbol]) / V[p.ZP.gameGovT.symbol], color: "rgba(118,252,211,1)" },
+                                    { name: r("Return to AICode/ETH LP"), value: (3 * V[p.ZP.gameGovT.symbol]) / V[p.ZP.gameGovT.symbol], color: "rgba(140,48,250,1)" },
+                                    { name: r("Put in the time lock"), value: (3 * V[p.ZP.gameGovT.symbol]) / V[p.ZP.gameGovT.symbol], color: "rgba(246,119,18,1)" },
+                                ]),
+                                e
+                            );
+                        },
+                        [r]
+                    )[n];
+                return (0, d.jsxs)(d.Fragment, {
+                    children: [
+                        (0, d.jsx)(l.xu, {
+                            mt: 120,
+                            className: "show-media-md",
+                            children: (0, d.jsxs)(l.kC, {
+                                justifyContent: "center",
+                                position: "relative",
+                                children: [
+                                    (0, d.jsxs)(F.u, {
+                                        margin: { left: 280 },
+                                        width: 960,
+                                        height: 400,
+                                        className: "pie-chart",
+                                        children: [
+                                            (0, d.jsx)($.b, {
+                                                data: i,
+                                                cx: 200,
+                                                cy: 200,
+                                                innerRadius: 120,
+                                                outerRadius: 150,
+                                                label: q,
+                                                dataKey: "value",
+                                                startAngle: 90,
+                                                endAngle: 450,
+                                                strokeWidth: 0,
+                                                style: { margin: "auto" },
+                                                children: i.map(function (e, t) {
+                                                    return (0, d.jsx)(U.b, { fill: e.color }, "cell-".concat(t));
+                                                }),
+                                            }),
+                                            (0, d.jsx)(X.u, {
+                                                formatter: function (e) {
+                                                    return "".concat(e, "%");
+                                                },
+                                            }),
+                                        ],
+                                    }),
+                                    (0, d.jsxs)(H, {
+                                        flexDirection: "column",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        children: [
+                                            (0, d.jsxs)(l.kC, {
+                                                children: [(0, d.jsxs)(l.xv, { fontSize: "32px", bold: !0, active: !0, children: [V[n], "%"] }), (0, d.jsx)(l.xv, { ml: "0.2em", fontSize: "32px", bold: !0, children: r("tax burn") })],
+                                            }),
+                                            (0, d.jsx)(l.xv, { mt: 12, textAlign: "center", children: r("in each transaction") }),
+                                        ],
+                                    }),
+                                ],
+                            }),
+                        }),
+                        (0, d.jsx)(l.xu, {
+                            mt: 40,
+                            className: "hide-media-md",
+                            children: (0, d.jsx)(l.kC, {
+                                justifyContent: "center",
+                                children: (0, d.jsxs)(l.kC, {
+                                    flexDirection: "column",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    children: [
+                                        (0, d.jsxs)(l.kC, {
+                                            children: [(0, d.jsxs)(l.xv, { fontSize: "32px", bold: !0, active: !0, children: [V[n], "%"] }), (0, d.jsx)(l.xv, { ml: "0.2em", fontSize: "32px", bold: !0, children: r("tax burn") })],
+                                        }),
+                                        (0, d.jsx)(l.xv, { mt: 12, textAlign: "center", children: r("in each transaction") }),
+                                        (0, d.jsxs)(F.u, {
+                                            width: 300,
+                                            height: 250,
+                                            children: [
+                                                (0, d.jsx)($.b, {
+                                                    dataKey: "value",
+                                                    isAnimationActive: !1,
+                                                    data: i,
+                                                    cx: "50%",
+                                                    cy: "50%",
+                                                    outerRadius: 80,
+                                                    startAngle: -16,
+                                                    endAngle: 344,
+                                                    fill: "#8884d8",
+                                                    label: function (e) {
+                                                        var t = e.value;
+                                                        return "".concat(t, "%");
+                                                    },
+                                                    children: i.map(function (e, t) {
+                                                        return (0, d.jsx)(U.b, { fill: e.color }, "cell-".concat(t));
+                                                    }),
+                                                }),
+                                                (0, d.jsx)(X.u, {
+                                                    formatter: function (e) {
+                                                        return "".concat(e, "%");
+                                                    },
+                                                }),
+                                                (0, d.jsx)(X.u, {
+                                                    formatter: function (e) {
+                                                        return "".concat(e, "%");
+                                                    },
+                                                }),
+                                            ],
+                                        }),
+                                        (0, d.jsx)(l.xu, {
+                                            width: "100%",
+                                            children: i.map(function (e) {
+                                                return (0,
+                                                d.jsxs)(l.kC, { mb: "16px", justifyContent: "flex-start", width: "100%", alignItems: "center", children: [(0, d.jsx)(l.xu, { width: 16, height: 16, borderRadius: "4px", background: e.color }), (0, d.jsx)(l.xv, { color: "textSubtle", ml: "8px", children: e.name }), (0, d.jsxs)(l.xv, { ml: "4px", children: [e.value, "%"] })] }, e.name);
+                                            }),
+                                        }),
+                                    ],
+                                }),
+                            }),
+                        }),
+                    ],
+                });
+            }
+            (0, c.ZP)(l.kC).withConfig({ displayName: "TokenInfo__SwiperFlex", componentId: "sc-sasvc-0" })(["transform:", ";transition:all 0.3s;"], function (e) {
+                var t = e.index;
+                return "translateX(-".concat(50 * t, "%)");
+            });
+            var Q =
+                    ((i = {}),
+                    (0, L.Z)(i, p.ZP.gameT.symbol, {
+                        address: p.ZP.gameT.address,
+                        symbol: p.ZP.gameT.symbol,
+                        name: p.ZP.gameT.name,
+                        image: "public/img_2@2x.png",
+                        title: "What is %assets%?",
+                        btn: "Buy %assets%",
+                        docLink: Y.PK,
+                        intro: [
+                            "AIDOGE is a deflationary token. It will be used by AIDOGE ecosystem applications. The total supply is 210,000,000,000,000,000 tokens. AIDOGE belongs to everyone in the Arbitrum community and is also a necessary key to unlock the future chapters of the AIDOGE story.",
+                            "AIDOGE has a 15% burning tax, so adjusting your slippage tolerance to around 20% is suggested when buying/selling to ensure your successful transactions. Every time you buy AIDOGE, you will receive a Lucky Drop ticket with a chance to win an ARB prize based on the purchase amount. You can also stake your AIDOGE to earn more.",
+                        ],
+                    }),
+                    (0, L.Z)(i, p.ZP.gameGovT.symbol, {
+                        address: p.ZP.gameGovT.address,
+                        name: p.ZP.gameGovT.name,
+                        symbol: p.ZP.gameGovT.symbol,
+                        image: "public/img_6@2x.png",
+                        title: "What is %assets%?",
+                        btn: "Buy %assets%",
+                        docLink: Y.jj,
+                        intro: [
+                            "AICode is A decentralized token collected by AIDOGE Holders with a Bitcoin halving mechanism",
+                            "The role of AICode is to earn AIDOGE by voting the $ARB owned by the governance protocol and staking. In the long run, we will work with the community to build a series of applications around AICode.",
+                        ],
+                    }),
+                    i),
+                ee = function () {
+                    var e = (0, o.$G)().t,
+                        t = A.useState(0),
+                        n = (0, x.Z)(t, 2);
+                    n[0], n[1];
+                    var r = Q[p.ZP.gameT.symbol];
+                    return (0, d.jsx)(l.kC, {
+                        flexDirection: "column",
+                        alignItems: "center",
+                        children: (0, d.jsxs)(
+                            l.xu,
+                            {
+                                width: "100%",
+                                padding: "8px",
+                                children: [
+                                    (0, d.jsxs)(l.kC, {
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        flexWrap: "wrap",
+                                        children: [
+                                            (0, d.jsx)(w.Z, { mt: 36, width: 360, borderRadius: "32px", children: (0, d.jsx)(l.Ee, { borderRadius: "32px", alt: r.symbol, src: r.image, width: 360, height: 360 }) }),
+                                            (0, d.jsx)(l.xu, { width: 100, className: "show-media-ml" }),
+                                            (0, d.jsxs)(l.xu, {
+                                                mt: 36,
+                                                maxWidth: 500,
+                                                children: [
+                                                    (0, d.jsx)(l.X6, { scale: "lg", children: e(r.title, { assets: r.symbol }) }),
+                                                    r.intro.map(function (t, n) {
+                                                        return (0, d.jsx)(l.xv, { mt: 0 === n ? 20 : 12, color: "textSubtle", children: e(t) }, n);
+                                                    }),
+                                                    (0, d.jsxs)(l.kC, {
+                                                        children: [
+                                                            (0, d.jsx)(l.rU, { external: !0, href: (0, S.L5)(r.address), children: (0, d.jsx)(l.zx, { mt: 32, children: e(r.btn, { assets: r.symbol }) }) }),
+                                                            (0, d.jsx)(l.rU, {
+                                                                external: !0,
+                                                                href: r.docLink,
+                                                                children: (0, d.jsx)(l.zx, { mt: 32, ml: 24, variant: "info", endIcon: (0, d.jsx)(l.fD, { color: "primary", width: 12 }), children: e("View Docs") }),
+                                                            }),
+                                                        ],
+                                                    }),
+                                                ],
+                                            }),
+                                        ],
+                                    }),
+                                    (0, d.jsx)(J, { symbol: r.symbol }),
+                                ],
+                            },
+                            r.symbol
+                        ),
+                    });
+                },
+                et = n(4730),
+                en = n(39696),
+                er = n(97005),
+                ei = ["label", "value"];
+            function eo(e, t) {
+                var n = Object.keys(e);
+                if (Object.getOwnPropertySymbols) {
+                    var r = Object.getOwnPropertySymbols(e);
+                    t &&
+                        (r = r.filter(function (t) {
+                            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+                        })),
+                        n.push.apply(n, r);
+                }
+                return n;
+            }
+            function ea(e) {
+                for (var t = 1; t < arguments.length; t++) {
+                    var n = null != arguments[t] ? arguments[t] : {};
+                    t % 2
+                        ? eo(Object(n), !0).forEach(function (t) {
+                              (0, L.Z)(e, t, n[t]);
+                          })
+                        : Object.getOwnPropertyDescriptors
+                        ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
+                        : eo(Object(n)).forEach(function (t) {
+                              Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
+                          });
+                }
+                return e;
+            }
+            var el = function (e) {
+                    var t = e.label,
+                        n = e.value,
+                        r = (0, et.Z)(e, ei);
+                    return (0, d.jsxs)(
+                        l.kC,
+                        ea(
+                            ea({ background: "#081b2f", height: 138, width: 320, flexDirection: "column", justifyContent: "center", alignItems: "center" }, r),
+                            {},
+                            { children: [(0, d.jsx)(l.xv, { fontSize: "32px", bold: !0, active: !0, children: (0, Z.UJ)(n) }), (0, d.jsx)(l.xv, { mt: 12, fontSize: "14px", children: t })] }
+                        )
+                    );
+                },
+                es = function () {
+                    (0, en.GG)();
+                    var e = (0, y.oR)(function (e) {
+                            return e.stats;
+                        }).homeData,
+                        t = (0, o.$G)().t;
+                    return (0, d.jsx)(er.Z, {
+                        speed: 40,
+                        gradient: !1,
+                        children: [
+                            { key: "adcTotalSupply", label: "AIDOGE Total Supply" },
+                            { key: "adcCirculatingSupply", label: "AIDOGE Currency Supply" },
+                            {
+                                key: "adcBurnSupply",
+                                label: "AIDOGE Total Burn",
+                                format: function (e) {
+                                    return (e && (null == e ? void 0 : e.adcTotalSupply) - (null == e ? void 0 : e.adcCirculatingSupply)) || 0;
+                                },
+                            },
+                            { key: "adcTradingAmount", label: "AIDOGE Trading Volume" },
+                            { key: "gameRewardArb", label: "Lucky Drop Reward $ARB" },
+                            { key: "adcAccumulatedArb", label: "AIDOGE Accumulated $ARB" },
+                        ].map(function (n) {
+                            return (0, d.jsx)(el, { label: t(n.label), value: n.format ? n.format(e) : (null == e ? void 0 : e[n.key]) || 0 }, n.key);
+                        }),
+                    });
+                },
+                ec = function () {
+                    return (
+                        (0, o.$G)().t,
+                        (0, d.jsxs)(l.kC, {
+                            background: "linear-gradient(180deg, rgba(51,250,240,0.00) 0%, rgba(23,243,221,0.05) 100%)",
+                            flexDirection: "column",
+                            justifyContent: "center",
+                            alignItems: "center",
+                            margin: "auto",
+                            pt: 100,
+                            pb: 120,
+                            children: [
+                                (0, d.jsx)(l.X6, {
+                                    padding: "0 16px",
+                                    maxWidth: 960,
+                                    scale: "xl",
+                                    lineHeight: 1.5,
+                                    textAlign: "center",
+                                    children: 'The secret weapon that humans have over AI is "intuition." Your intuition tells you to join our great community.',
+                                }),
+                                (0, d.jsx)(l.kC, {
+                                    justifyContent: "center",
+                                    mt: 80,
+                                    children: Y.UY.map(function (e) {
+                                        return (0, d.jsx)(l.rU, { external: !0, href: e.href, margin: "0 24px", children: (0, d.jsx)(e.icon, { width: 52 }) }, e.label);
+                                    }),
+                                }),
+                            ],
+                        })
+                    );
+                },
+                eu = ["image", "href", "soon", "title"];
+            function ed(e, t) {
+                var n = Object.keys(e);
+                if (Object.getOwnPropertySymbols) {
+                    var r = Object.getOwnPropertySymbols(e);
+                    t &&
+                        (r = r.filter(function (t) {
+                            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+                        })),
+                        n.push.apply(n, r);
+                }
+                return n;
+            }
+            function em(e) {
+                for (var t = 1; t < arguments.length; t++) {
+                    var n = null != arguments[t] ? arguments[t] : {};
+                    t % 2
+                        ? ed(Object(n), !0).forEach(function (t) {
+                              (0, L.Z)(e, t, n[t]);
+                          })
+                        : Object.getOwnPropertyDescriptors
+                        ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
+                        : ed(Object(n)).forEach(function (t) {
+                              Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
+                          });
+                }
+                return e;
+            }
+            var eh = (0, c.ZP)(l.Zb).withConfig({ displayName: "CardLink__CardStyled", componentId: "sc-6izw5e-0" })(["", "{transition:all 0.3s;}&:hover ", "{color:", ";}"], l.xv, l.xv, function (e) {
+                    var t = e.theme;
+                    return e.soon ? "" : t.colors.primary;
+                }),
+                ex = (0, c.ZP)(l.xu).withConfig({ displayName: "CardLink__MarkBox", componentId: "sc-6izw5e-1" })([
+                    "position:absolute;width:100%;height:100%;z-index:2;background-image:linear-gradient( 180deg,transparent 0%,rgba(10,28,61,0.2) 70%,rgba(10,28,61,1) 100% );top:0;left:0;border-radius:12px;",
+                ]),
+                eg = (0, c.ZP)(l.Ee).withConfig({ displayName: "CardLink__ImageBlur", componentId: "sc-6izw5e-2" })(["overflow:hidden;border-radius:16px;& > img{filter:", ";}"], function (e) {
+                    return e.blur;
+                }),
+                ef = function (e) {
+                    var t = e.image,
+                        n = e.href,
+                        r = e.soon,
+                        i = e.title,
+                        a = (0, et.Z)(e, eu),
+                        s = (0, o.$G)().t;
+                    return (0, d.jsx)(
+                        l.rU,
+                        em(
+                            em(
+                                {
+                                    href: r ? "" : n,
+                                    onClick: function (e) {
+                                        r && (O.Am.info("Coming soon"), e.preventDefault());
+                                    },
+                                },
+                                a
+                            ),
+                            {},
+                            {
+                                children: (0, d.jsxs)(eh, {
+                                    type: r ? "transparent" : "primary",
+                                    margin: 16,
+                                    width: 216,
+                                    maxWidth: "42vw",
+                                    borderRadius: "12px",
+                                    soon: r,
+                                    children: [
+                                        (0, d.jsx)(eg, { alt: s(i), src: t, width: 216, height: 318, blur: r ? "blur(3px)" : "blur(0px)" }),
+                                        (0, d.jsxs)(l.xu, {
+                                            zIndex: 5,
+                                            position: "absolute",
+                                            top: "75%",
+                                            left: "10%",
+                                            children: [(0, d.jsx)(l.xv, { fontSize: "20px", bold: !0, children: s(i) }), (0, d.jsx)(l.xv, { mt: 12, color: "textSubtle", children: s(r ? "Coming soon..." : "Get started") })],
+                                        }),
+                                        r &&
+                                            (0, d.jsx)(l.kC, {
+                                                position: "absolute",
+                                                width: "100%",
+                                                height: "100%",
+                                                top: 0,
+                                                left: 0,
+                                                alignItems: "center",
+                                                justifyContent: "center",
+                                                zIndex: 4,
+                                                children: (0, d.jsx)(l.mB, { width: 36, color: "textSubtle" }),
+                                            }),
+                                        (0, d.jsx)(ex, { zIndex: 3 }),
+                                    ],
+                                }),
+                            }
+                        )
+                    );
+                };
+            n(99008);
+            var ep = (0, c.ZP)(l.xu).withConfig({ displayName: "home__AirdropBox", componentId: "sc-u594z6-0" })(["margin-top:80px;", "{margin-top:300px;}"], function (e) {
+                return e.theme.mediaQueries.md;
+            });
+            function eb() {
+                (0, o.$G)().t;
+                var e = (0, S.N0)();
+                return (0, d.jsxs)(a.Z, {
+                    children: [
+                        (0, d.jsx)(u.n, {}),
+                        (0, d.jsx)(m, {}),
+                        (0, d.jsx)(ep, { children: (0, d.jsx)(M, {}) }),
+                        (0, d.jsx)(l.xu, { mt: 120, children: (0, d.jsx)(ee, {}) }),
+                        (0, d.jsx)(l.kC, { marginTop: 100, justifyContent: "center", flexWrap: "wrap" }),
+                        (0, d.jsx)(l.xu, { mt: 120, children: (0, d.jsx)(es, {}) }),
+                        (0, d.jsx)(l.xu, {
+                            maxWidth: "100%",
+                            overflow: "hidden",
+                            children: (0, d.jsx)(l.xu, {
+                                margin: "auto",
+                                mt: 120,
+                                children: (0, d.jsx)(s.tq, {
+                                    slidesPerView: "auto",
+                                    spaceBetween: 32,
+                                    centeredSlides: !0,
+                                    slidesOffsetBefore: e ? 0 : -140,
+                                    initialSlide: e ? 0 : 1,
+                                    className: "mySwiper",
+                                    children: [
+                                        { image: "public/card_1.png", title: "AIDOGE", soon: !1, href: "/earn" },
+                                        { image: "public/card_2.png", title: "AICODE", soon: !0, href: "/burn" },
+                                        { image: "public/card_3.png", title: "NFT Prologue", soon: !0, href: "/nft" },
+                                        { image: "public/card_4.png", title: "AIDOGE Vault", soon: !0, href: "/vault" },
+                                        { image: "public/card_5.png", title: "AI Lab", soon: !0, href: "/allab" },
+                                        { image: "public/card_6.png", title: "Build", soon: !0, href: "/build" },
+                                    ].map(function (e) {
+                                        return (0, d.jsx)(s.o5, { style: { width: 216 }, children: (0, d.jsx)(ef, { image: e.image, title: e.title, soon: e.soon, href: e.href }) }, e.href);
+                                    }),
+                                }),
+                            }),
+                        }),
+                        (0, d.jsx)(l.xu, { children: (0, d.jsx)(ec, {}) }),
+                    ],
+                });
+            }
+            function ey() {
+                return (0, d.jsx)(eb, {});
+            }
+        },
+        83911: function (e, t, n) {
+            "use strict";
+            n.d(t, {
+                O: function () {
+                    return s;
+                },
+                i: function () {
+                    return c;
+                },
+            });
+            var r = n(51038),
+                i = n(67294),
+                o = n(9473),
+                a = n(2875),
+                l = n(83940),
+                s = function () {
+                    var e = (0, o.I0)(),
+                        t = (0, r.Z)().account,
+                        n = (0, i.useCallback)(
+                            function () {
+                                e((0, l.hI)(t)), e((0, l.lt)(t));
+                            },
+                            [e, t]
+                        );
+                    return (
+                        (0, i.useEffect)(
+                            function () {
+                                n();
+                            },
+                            [n]
+                        ),
+                        { fetch: n }
+                    );
+                },
+                c = function () {
+                    return (0, a.o)(function (e) {
+                        return e.airdrop.infoView;
+                    });
+                };
+        },
+        48312: function (e, t, n) {
+            (window.__NEXT_P = window.__NEXT_P || []).push([
+                "/",
+                function () {
+                    return n(38209);
+                },
+            ]);
+        },
+    },
+    function (e) {
+        e.O(0, [663, 961, 112, 718, 67, 774, 888, 179], function () {
+            return e((e.s = 48312));
+        }),
+            (_N_E = e.O());
+    },
+]);
